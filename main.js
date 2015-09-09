@@ -29,6 +29,6 @@ define(function (require, exports, module) {
     // The label of the menu item is the name we gave the command (see above)
     var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
     menu.addMenuItem(COMMAND_ID, [{key: "Ctrl-Shift-I", platform: "win"},
-                                  {key: "Ctrl-Shift-I", platform: "mac"}]);
+                                  {key: "Cmd-Shift-I", platform: "mac"}]);
     
 });
